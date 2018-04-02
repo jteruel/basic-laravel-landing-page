@@ -23,7 +23,7 @@
  <div class="container">
    <div class="row">
       <div id="welcomemessage">
-        <h1>Craft Future Career Development Experience</h1>
+        <h1>Craft the Future Career Development Experience</h1>
 
         <h3>Building Individuals for the Careers of the Future</h3>
         <br/> 
@@ -33,5 +33,77 @@
  </div> 
   
 </div> 
+
+<!--contact form-->
+<div id="valueprop" class="spacing"> 
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+        <h1><span class="glyphicon glyphicon-user"></span></h1>
+        <h3>Less Resumes, More Offers</h3>
+    </div>
+    <div class="col-md-4">
+        <h1><span class="glyphicon glyphicon-plus"></span></h1>
+        <h3>Build Skills and Knowledge</h3>
+    </div>
+
+    <div class="col-md-4">
+        <h1><span class="glyphicon glyphicon-globe"></span></h1>
+        <h3>Assess Your Abilities With the Current Market</h3>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!--contact form-->
+<div id="contactform" class="spacing">
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1" style="border:1px solid #ededed;">
+      <h3>Contact</h3>
+      <hr>
+      <div class="row">
+
+        
+           @if (Session::has('message'))
+            <li style="color:#000; padding:15px; border:1px solid #000; list-style:none;">{!! session('message') !!}</li>
+            <br/> 
+           @endif 
+           {!! Form::open(array('action' => 'MainController@sendcontact')) !!}
+            <div class="col-md-4">
+               <label>Your Name</label>
+               <input type="text" name="name" class="form-control">
+               <br/> 
+               <label>Your Email Address</label>
+               <input type="email" name="email" class="form-control">
+               <br/> 
+               
+               <label>Subject</label>
+               <input type="textarea" name="subject"  class="form-control">
+               <br/> 
+             </div>
+
+             <div class="col-md-8">
+                {!! Form::label('message', null) !!}
+                 <br/>
+                 <textarea name="message" id="message" class="form-control"  style="height:200px; "></textarea>
+                 <br/> 
+                 {{ Form::submit('Send',['class' => 'btn btn-primary']) }}
+                 <br/> 
+                 <br/> 
+
+            </div>
+            {!! Form::close() !!} 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!--end contact form--> 
+
 
 @endsection

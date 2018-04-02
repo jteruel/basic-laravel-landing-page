@@ -11,12 +11,7 @@ class MainController extends Controller
     public function index()
     {
         return view('home');
-    }
-
-    public function contact() 
-    { 
-       return view('contact');
-    }
+    } 
 
     public function sendcontact(Request $request)
     {
@@ -46,7 +41,7 @@ class MainController extends Controller
        });
         
        \Session::flash('message', 'Message successfully sent!');
-       return redirect('/contact');
+       return redirect('/');
     }
 
     public function interested()
