@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
+
+Route::get('/', 'MainController@index');
+Route::get('/contact', 'MainController@contact'); 
+Route::post('/send-contact', 'MainController@sendcontact'); 
