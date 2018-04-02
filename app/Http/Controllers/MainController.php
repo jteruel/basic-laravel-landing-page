@@ -41,12 +41,42 @@ class MainController extends Controller
        Mail::send('emails.Contact', $sendcontact, function ($message)
        {   
            $message->from('info@kaizenhire','KaizenHire');
-           $message->to('info@flightsinasia.com');
+           $message->to('jeffreyteruel@gmail.com');
            $message->subject('New Message From KaizenHire Site');
        });
         
        \Session::flash('message', 'Message successfully sent!');
        return redirect('/contact');
+    }
+
+    public function interested()
+    {
+       return view('interested');
+    }
+
+    public function signup(Request $request)
+    {
+      $data = $request->all(); 
+      
+       $signup['firstname'] = $data['firstname'];
+       $signup['lastname'] = $data['lastname'];
+       $signup['hometown'] = $data['hometown'];
+       $signup['email'] = $data['email'];  
+
+       Mail::send('emails.NewSignUp', $signup, function ($message)
+       {   
+           $message->from('info@kaizenhire','KaizenHire');
+           $message->to('jeffreyteruel@gmail.com');
+           $message->subject('New Message From KaizenHire Site');
+       });
+        
+       return redirect('/thank-you');
+    }
+
+    public function thankyou()
+    {
+
+       return view('thanks');
     }
 }
 

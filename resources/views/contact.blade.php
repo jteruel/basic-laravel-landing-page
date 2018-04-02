@@ -2,6 +2,8 @@
 
 @section('content')
 
+<div id="topspacing"></div>
+
 <div class="container"> 
   <div class="row"> 
    <div id="pagefull"> 
@@ -24,16 +26,14 @@
                  <label>Your Email Address</label>
                  <input type="email" name="email" class="form-control">
                  <br/> 
-                 <label>Phone</label>
-                 <input type="text" name="phone"  class="form-control">
-                 <br/>
+                 
                  <label>Subject</label>
-                 <input type="text" name="subject"  class="form-control">
+                 <input type="textarea" name="subject"  class="form-control">
                  <br/> 
 
                  {!! Form::label('message', null) !!}
                  <br/>
-                 <textarea name="message" id="message" class="form-control"></textarea>
+                 <textarea name="message" id="message" class="form-control"  style="height:200px; "></textarea>
                
                  <br/> 
                  {{ Form::submit('Send',['class' => 'btn btn-primary']) }}
