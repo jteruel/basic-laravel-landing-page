@@ -9,11 +9,6 @@ Email: {{ $email }}
 </p>
 
 <p>
-Phone: {{ $phone }}
-</p>
-
-
-<p>
 Subject: {{ $subject }}
 </p>
  
