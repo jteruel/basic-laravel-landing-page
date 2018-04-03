@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+        'domain' => 'guamcepts.com',
+        'secret' => 'key-4e76818259972df3d6eb5bd0c1667d47',
     ],
 
     'ses' => [
