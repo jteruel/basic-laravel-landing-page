@@ -26,12 +26,6 @@ class MainController extends Controller
        } else { 
          $sendcontact['subject'] = 'No Subject'; 
        }
-
-       if($data['phone']) { 
-         $sendcontact['phone'] = $data['phone']; 
-       } else { 
-         $sendcontact['phone'] = 'phone'; 
-       }
    
        Mail::send('emails.Contact', $sendcontact, function ($message)
        {   
