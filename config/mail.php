@@ -85,7 +85,7 @@ return [
     */
 
     'username' => env('MAIL_USERNAME', 'info@guamcepts.com'),
-    'password' => env('MAIL_PASSWORD','key-4e76818259972df3d6eb5bd0c1667d47'),
+    'password' => env('MAIL_PASSWORD','377a5823c5420ccc69071f93fa800f3c'),
 
     /*
     |--------------------------------------------------------------------------
