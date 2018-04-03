@@ -6,7 +6,7 @@
 
 <div class="container"> 
   <div class="row"> 
-   <div id="pagefull"> 
+   <div id="pagefull" style="padding-bottom:400px; "> 
     <div class="row"> 
            <div class="col-md-2">
              
