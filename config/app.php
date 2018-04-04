@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'KaizenHire'),
+    'name' => env('APP_NAME', 'Basic Laravel Landing Page'),
 
     /*
     |--------------------------------------------------------------------------

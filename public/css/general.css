@@ -1,11 +1,12 @@
 /*HTML page*/ 
 /*navigation*/
-.navbar { background-color:#fff; border-bottom:none; border-bottom:1px solid #ededed;}
+.navbar { background-color:#fff; border-bottom:none; border-bottom:1px solid #ededed; color:#888;}
 
 .navbar-brand {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
+  color:#000;
 } 
 .navbar #navilinks li a { font-family: 'Montserrat', sans-serif; font-size:16px;  color:#fff; }
 .navbar .navbar-brand img { width:180px; height:auto; position:relative; bottom:15px;  }

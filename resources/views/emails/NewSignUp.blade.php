@@ -1,4 +1,4 @@
-You received a new signup for Kaizen Hire
+You received a new signup form entry from the Basic Laravel Landing Page: 
 
 <p>
 First Name: {{ $firstname }}

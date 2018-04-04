@@ -3,7 +3,7 @@
     <div class="navbar-header">
 	   
 	    <a class="navbar-brand" href="/">
-	      <center><img src="/img/khlogo.png"></center>
+	      <center>Basic Laravel Landing Page</center>
 	    </a> 
     </div>
   </div>

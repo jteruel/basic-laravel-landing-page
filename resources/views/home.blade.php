@@ -23,11 +23,11 @@
  <div class="container">
    <div class="row">
       <div id="welcomemessage">
-        <h1>Craft the Future Career Development Experience</h1>
+        <h1>Welcome to the Landing Page!</h1>
 
-        <h3>Building Individuals for the Careers of the Future</h3>
+        <h3>Your intro subtext here</h3>
         <br/> 
-        <center><a href="/interest" class="btn btn-primary" style="padding:20px; padding-left:40px; padding-right:40px; ">Learn More</a></center>
+        <center><a href="/interest" class="btn btn-primary" style="padding:20px; padding-left:40px; padding-right:40px; ">Link to Signup</a></center>
       </div>
    </div>
  </div> 
@@ -40,16 +40,16 @@
   <div class="row">
     <div class="col-md-4">
         <h1><span class="glyphicon glyphicon-user"></span></h1>
-        <h3>Less Resumes, More Offers</h3>
+        <h3>Simple, Easy to Use</h3>
     </div>
     <div class="col-md-4">
         <h1><span class="glyphicon glyphicon-plus"></span></h1>
-        <h3>Build Skills and Knowledge</h3>
+        <h3>Quick Deployment</h3>
     </div>
 
     <div class="col-md-4">
         <h1><span class="glyphicon glyphicon-globe"></span></h1>
-        <h3>Assess Your Abilities With the Current Market</h3>
+        <h3>Bring Your Landing Page to Life!</h3>
     </div>
 
   </div>

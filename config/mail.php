@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'mailgun'),
+    'driver' => env('MAIL_DRIVER', '["Your Mail Driver"]'),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', '["Your SMTP Host Address"]'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'info@kaizenhire.com',
-        'name' => 'KaizenHire Mailer',
+        'address' => 'youremail@example.com',
+        'name' => 'Basic Laravel Landing Page Mailer',
     ],
 
     /*
@@ -84,8 +84,8 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME', 'info@guamcepts.com'),
-    'password' => env('MAIL_PASSWORD','key-4e76818259972df3d6eb5bd0c1667d47'),
+    'username' => env('MAIL_USERNAME', '["SMTP username"]'),
+    'password' => env('MAIL_PASSWORD','["SMTP password. If using Mailgun => access_key "]'),
 
     /*
     |--------------------------------------------------------------------------

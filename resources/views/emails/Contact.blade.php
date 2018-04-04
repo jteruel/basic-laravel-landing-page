@@ -1,4 +1,4 @@
-You received a message from the Kaizen Hire Landing Page: 
+You received a message from the Basic Laravel Landing Page: 
 
 <p>
 Name: {{ $name }}
